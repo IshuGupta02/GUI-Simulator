@@ -102,6 +102,1103 @@
      </rect>
     </property>
    </widget>
+   <widget class="QPushButton" name="pkt1">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt6">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt5">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt7">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt4">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt6_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt1_2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt5_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt4_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt2_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt3_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt7_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt1_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt2_3">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt5_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt4_3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt3_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>210</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt6_3">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt7_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt1_4">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt2_4">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt5_4">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt4_4">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt3_4">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>280</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt6_4">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt7_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt1_5">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt2_5">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt5_5">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt4_5">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt3_5">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_5">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>350</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt6_5">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt7_5">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_6">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>140</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt7_6">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt5_6">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt2_6">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt2_7">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt1_6">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt4_6">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_7">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>280</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt1_7">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt7_7">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt3_6">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt5_7">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt5_8">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt4_7">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt4_8">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt1_8">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt3_7">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_8">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>350</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt6_6">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt5_9">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt1_9">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt3_8">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt2_8">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt7_8">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_9">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>70</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt6_7">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt2_9">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt5_10">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt6_8">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt7_9">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt2_10">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt4_9">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt7_10">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_10">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>210</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt4_10">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt3_9">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>350</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt6_9">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt6_10">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>70</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt3_10">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pkt1_10">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <zorder>read_queue_8</zorder>
+   <zorder>read_queue_7</zorder>
+   <zorder>read_queue_10</zorder>
+   <zorder>read_queue_9</zorder>
+   <zorder>read_queue_5</zorder>
+   <zorder>read_queue_3</zorder>
+   <zorder>read_queue_4</zorder>
+   <zorder>read_queue_2</zorder>
+   <zorder>read_queue</zorder>
+   <zorder>Start</zorder>
+   <zorder>Pause</zorder>
+   <zorder>Stop</zorder>
+   <zorder>Next</zorder>
+   <zorder>Previous</zorder>
+   <zorder>progressBar</zorder>
+   <zorder>lcdNumber</zorder>
+   <zorder>pkt1</zorder>
+   <zorder>pkt3</zorder>
+   <zorder>pkt2</zorder>
+   <zorder>pkt6</zorder>
+   <zorder>pkt5</zorder>
+   <zorder>pkt7</zorder>
+   <zorder>pkt4</zorder>
+   <zorder>pkt6_2</zorder>
+   <zorder>pkt1_2</zorder>
+   <zorder>pkt5_2</zorder>
+   <zorder>pkt4_2</zorder>
+   <zorder>pkt2_2</zorder>
+   <zorder>pkt3_2</zorder>
+   <zorder>pkt7_2</zorder>
+   <zorder>pkt1_3</zorder>
+   <zorder>pkt2_3</zorder>
+   <zorder>pkt5_3</zorder>
+   <zorder>pkt4_3</zorder>
+   <zorder>pkt3_3</zorder>
+   <zorder>pkt6_3</zorder>
+   <zorder>pkt7_3</zorder>
+   <zorder>pkt1_4</zorder>
+   <zorder>pkt2_4</zorder>
+   <zorder>pkt5_4</zorder>
+   <zorder>pkt4_4</zorder>
+   <zorder>pkt3_4</zorder>
+   <zorder>pkt6_4</zorder>
+   <zorder>pkt7_4</zorder>
+   <zorder>pkt1_5</zorder>
+   <zorder>pkt2_5</zorder>
+   <zorder>pkt5_5</zorder>
+   <zorder>pkt4_5</zorder>
+   <zorder>pkt3_5</zorder>
+   <zorder>pkt6_5</zorder>
+   <zorder>pkt7_5</zorder>
+   <zorder>read_queue_6</zorder>
+   <zorder>pkt7_6</zorder>
+   <zorder>pkt5_6</zorder>
+   <zorder>pkt2_6</zorder>
+   <zorder>pkt2_7</zorder>
+   <zorder>pkt1_6</zorder>
+   <zorder>pkt4_6</zorder>
+   <zorder>pkt1_7</zorder>
+   <zorder>pkt7_7</zorder>
+   <zorder>pkt3_6</zorder>
+   <zorder>pkt5_7</zorder>
+   <zorder>pkt5_8</zorder>
+   <zorder>pkt4_7</zorder>
+   <zorder>pkt4_8</zorder>
+   <zorder>pkt1_8</zorder>
+   <zorder>pkt3_7</zorder>
+   <zorder>pkt6_6</zorder>
+   <zorder>pkt5_9</zorder>
+   <zorder>pkt1_9</zorder>
+   <zorder>pkt3_8</zorder>
+   <zorder>pkt2_8</zorder>
+   <zorder>pkt7_8</zorder>
+   <zorder>pkt6_7</zorder>
+   <zorder>pkt2_9</zorder>
+   <zorder>pkt5_10</zorder>
+   <zorder>pkt6_8</zorder>
+   <zorder>pkt7_9</zorder>
+   <zorder>pkt2_10</zorder>
+   <zorder>pkt4_9</zorder>
+   <zorder>pkt7_10</zorder>
+   <zorder>pkt4_10</zorder>
+   <zorder>pkt3_9</zorder>
+   <zorder>pkt6_9</zorder>
+   <zorder>pkt6_10</zorder>
+   <zorder>pkt3_10</zorder>
+   <zorder>pkt1_10</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
