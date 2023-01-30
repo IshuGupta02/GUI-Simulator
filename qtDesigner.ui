@@ -1725,6 +1725,9 @@
     </property>
    </widget>
    <widget class="QLineEdit" name="goToCycle">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>860</x>
@@ -1747,7 +1750,10 @@
      <string>Enter Cycle Number:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="goToCycle_2">
+   <widget class="QLineEdit" name="total_cycles">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>920</x>
@@ -1905,7 +1911,7 @@
    <zorder>goToCycleBtn</zorder>
    <zorder>goToCycle</zorder>
    <zorder>label_9</zorder>
-   <zorder>goToCycle_2</zorder>
+   <zorder>total_cycles</zorder>
    <zorder>label_12</zorder>
    <zorder>label_13</zorder>
   </widget>

@@ -18,6 +18,8 @@ class MyGUI(QMainWindow):
 
         self.cycle=0
 
+        # self.total_cycles.setText(len(self.data))
+
         self.Start.setEnabled(True)
         self.Start.clicked.connect(self.startDisplay)
         
