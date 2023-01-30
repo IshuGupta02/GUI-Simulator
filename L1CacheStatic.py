@@ -18,7 +18,8 @@ class MyGUI(QMainWindow):
 
         self.cycle=0
 
-        # self.total_cycles.setText(len(self.data))
+        self.total_cycles.setText(str(len(self.data)-1))
+        self.current_cycle.setText("No started")
 
         self.Start.setEnabled(True)
         self.Start.clicked.connect(self.startDisplay)
@@ -37,7 +38,7 @@ class MyGUI(QMainWindow):
         else:
             self.cycle = cycle
 
-        self.cycleNumber.display(self.cycle)
+        self.current_cycle.setText(str(self.cycle))
         print("displayCycle :", self.cycle)
 
         all_queues = self.data[cycle]

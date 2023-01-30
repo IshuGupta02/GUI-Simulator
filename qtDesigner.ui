@@ -75,19 +75,6 @@
      <number>24</number>
     </property>
    </widget>
-   <widget class="QLCDNumber" name="cycleNumber">
-    <property name="geometry">
-     <rect>
-      <x>920</x>
-      <y>20</y>
-      <width>251</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="digitCount">
-     <number>30</number>
-    </property>
-   </widget>
    <widget class="QPushButton" name="RDREQ_2">
     <property name="enabled">
      <bool>false</bool>
@@ -1710,7 +1697,7 @@
    </widget>
    <widget class="QPushButton" name="goToCycleBtn">
     <property name="enabled">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -1750,19 +1737,6 @@
      <string>Enter Cycle Number:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="total_cycles">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>920</x>
-      <y>50</y>
-      <width>251</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
@@ -1789,6 +1763,32 @@
      <string>Total cycles</string>
     </property>
    </widget>
+   <widget class="QLabel" name="total_cycles">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>50</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Total cycles</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="current_cycle">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>20</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Current cycle</string>
+    </property>
+   </widget>
    <zorder>read_queue_8</zorder>
    <zorder>read_queue_7</zorder>
    <zorder>read_queue_10</zorder>
@@ -1802,7 +1802,6 @@
    <zorder>Next</zorder>
    <zorder>Previous</zorder>
    <zorder>progressBar</zorder>
-   <zorder>cycleNumber</zorder>
    <zorder>RDREQ_2</zorder>
    <zorder>RDREQ_4</zorder>
    <zorder>RDREQ_3</zorder>
@@ -1911,9 +1910,10 @@
    <zorder>goToCycleBtn</zorder>
    <zorder>goToCycle</zorder>
    <zorder>label_9</zorder>
-   <zorder>total_cycles</zorder>
    <zorder>label_12</zorder>
    <zorder>label_13</zorder>
+   <zorder>total_cycles</zorder>
+   <zorder>current_cycle</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
