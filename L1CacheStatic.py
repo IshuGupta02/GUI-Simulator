@@ -47,6 +47,7 @@ class MyGUI(QMainWindow):
         self.current_cycle.setText(str(self.cycle))
 
         value = float(self.cycle) * 100  / float(len(self.data)-1)
+        value = round(value,2)
         self.progressBar.setValue(value * 100)
         self.progressBar.setFormat("%.02f %%" % value)
         print("displayCycle :", self.cycle)
