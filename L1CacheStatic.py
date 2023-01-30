@@ -20,6 +20,10 @@ class MyGUI(QMainWindow):
 
         self.total_cycles.setText(str(len(self.data)-1))
         self.current_cycle.setText("No started")
+        n = 100
+        self.progressBar.setMaximum(100 * n)
+        self.progressBar.setValue(0 * n)
+        self.progressBar.setFormat("%.02f %%" % 0)
 
         self.Start.setEnabled(True)
         self.Start.clicked.connect(self.startDisplay)
@@ -41,6 +45,10 @@ class MyGUI(QMainWindow):
             self.cycle = cycle
 
         self.current_cycle.setText(str(self.cycle))
+
+        value = float(self.cycle) * 100  / float(len(self.data)-1)
+        self.progressBar.setValue(value * 100)
+        self.progressBar.setFormat("%.02f %%" % value)
         print("displayCycle :", self.cycle)
 
         all_queues = self.data[cycle]
