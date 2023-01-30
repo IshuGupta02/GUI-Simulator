@@ -200,7 +200,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>600</x>
+      <x>640</x>
       <y>250</y>
       <width>41</width>
       <height>31</height>
@@ -216,7 +216,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>560</x>
+      <x>600</x>
       <y>250</y>
       <width>41</width>
       <height>31</height>
@@ -232,7 +232,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>440</x>
+      <x>480</x>
       <y>250</y>
       <width>41</width>
       <height>31</height>
@@ -248,7 +248,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>520</x>
       <y>250</y>
       <width>41</width>
       <height>31</height>
@@ -264,7 +264,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>560</x>
       <y>250</y>
       <width>41</width>
       <height>31</height>
@@ -277,7 +277,7 @@
    <widget class="QListView" name="read_queue_4">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>360</x>
       <y>250</y>
       <width>321</width>
       <height>31</height>
@@ -290,7 +290,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>440</x>
       <y>250</y>
       <width>41</width>
       <height>31</height>
@@ -306,7 +306,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>600</x>
+      <x>640</x>
       <y>320</y>
       <width>41</width>
       <height>31</height>
@@ -322,7 +322,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>560</x>
+      <x>600</x>
       <y>320</y>
       <width>41</width>
       <height>31</height>
@@ -338,7 +338,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>440</x>
+      <x>480</x>
       <y>320</y>
       <width>41</width>
       <height>31</height>
@@ -354,7 +354,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>520</x>
       <y>320</y>
       <width>41</width>
       <height>31</height>
@@ -370,7 +370,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>560</x>
       <y>320</y>
       <width>41</width>
       <height>31</height>
@@ -383,7 +383,7 @@
    <widget class="QListView" name="read_queue_3">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>360</x>
       <y>320</y>
       <width>321</width>
       <height>31</height>
@@ -396,7 +396,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>440</x>
       <y>320</y>
       <width>41</width>
       <height>31</height>
@@ -406,7 +406,26 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pkt1_5">
+   <widget class="QPushButton" name="FILL_1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FILL_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>600</x>
@@ -419,33 +438,10 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pkt2_5">
-    <property name="geometry">
-     <rect>
-      <x>560</x>
-      <y>390</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
+   <widget class="QPushButton" name="FILL_5">
+    <property name="enabled">
+     <bool>false</bool>
     </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pkt5_5">
-    <property name="geometry">
-     <rect>
-      <x>440</x>
-      <y>390</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pkt4_5">
     <property name="geometry">
      <rect>
       <x>480</x>
@@ -458,7 +454,10 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pkt3_5">
+   <widget class="QPushButton" name="FILL_4">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>520</x>
@@ -471,20 +470,13 @@
      <string/>
     </property>
    </widget>
-   <widget class="QListView" name="read_queue_5">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>390</y>
-      <width>281</width>
-      <height>31</height>
-     </rect>
+   <widget class="QPushButton" name="FILL_3">
+    <property name="enabled">
+     <bool>false</bool>
     </property>
-   </widget>
-   <widget class="QPushButton" name="pkt6_5">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>560</x>
       <y>390</y>
       <width>41</width>
       <height>31</height>
@@ -494,10 +486,23 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pkt7_5">
+   <widget class="QListView" name="read_queue_5">
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>40</x>
+      <y>390</y>
+      <width>641</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FILL_6">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>440</x>
       <y>390</y>
       <width>41</width>
       <height>31</height>
@@ -1067,7 +1072,7 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>490</x>
       <y>430</y>
       <width>55</width>
       <height>16</height>
@@ -1637,7 +1642,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>400</x>
       <y>250</y>
       <width>41</width>
       <height>31</height>
@@ -1653,7 +1658,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>360</x>
       <y>250</y>
       <width>41</width>
       <height>31</height>
@@ -1669,7 +1674,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>360</x>
       <y>320</y>
       <width>41</width>
       <height>31</height>
@@ -1685,7 +1690,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>400</x>
       <y>320</y>
       <width>41</width>
       <height>31</height>
@@ -1789,6 +1794,166 @@
      <string>Current cycle</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="FILL_7">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FILL_10">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FILL_8">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FILL_9">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FILL_11">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FILL_12">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FILL_13">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FILL_14">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FILL_15">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FILL_16">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
    <zorder>read_queue_8</zorder>
    <zorder>read_queue_7</zorder>
    <zorder>read_queue_10</zorder>
@@ -1820,13 +1985,12 @@
    <zorder>PBR_RSP_4</zorder>
    <zorder>PBR_RSP_3</zorder>
    <zorder>PBR_RSP_6</zorder>
-   <zorder>pkt1_5</zorder>
-   <zorder>pkt2_5</zorder>
-   <zorder>pkt5_5</zorder>
-   <zorder>pkt4_5</zorder>
-   <zorder>pkt3_5</zorder>
-   <zorder>pkt6_5</zorder>
-   <zorder>pkt7_5</zorder>
+   <zorder>FILL_1</zorder>
+   <zorder>FILL_2</zorder>
+   <zorder>FILL_5</zorder>
+   <zorder>FILL_4</zorder>
+   <zorder>FILL_3</zorder>
+   <zorder>FILL_6</zorder>
    <zorder>read_queue_6</zorder>
    <zorder>pkt7_6</zorder>
    <zorder>pkt5_6</zorder>
@@ -1914,6 +2078,16 @@
    <zorder>label_13</zorder>
    <zorder>total_cycles</zorder>
    <zorder>current_cycle</zorder>
+   <zorder>FILL_7</zorder>
+   <zorder>FILL_10</zorder>
+   <zorder>FILL_8</zorder>
+   <zorder>FILL_9</zorder>
+   <zorder>FILL_11</zorder>
+   <zorder>FILL_12</zorder>
+   <zorder>FILL_13</zorder>
+   <zorder>FILL_14</zorder>
+   <zorder>FILL_15</zorder>
+   <zorder>FILL_16</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
