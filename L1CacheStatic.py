@@ -23,6 +23,8 @@ class MyGUI(QMainWindow):
 
         self.Start.setEnabled(True)
         self.Start.clicked.connect(self.startDisplay)
+
+        self.goToCycleBtn.clicked.connect(lambda : self.jumpCycle(self.goToCycle.text()))
         
     def displayPacket(self):
         self.w = PacketWindow()
@@ -87,6 +89,15 @@ class MyGUI(QMainWindow):
 
     def prevCycle(self, dec=1):
         self.displayCycle(self.cycle-dec)
+    
+    def jumpCycle(self, cycle=0):
+        try:
+            cycle = int(cycle)
+        except:
+            print("Please enter a valid cycle number")
+            return
+
+        self.displayCycle(cycle)
 
 def main():
     app = QApplication([])

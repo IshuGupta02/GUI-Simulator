@@ -75,7 +75,7 @@ class Ui_MainWindow(object):
     
 
     def loadData(self):
-        logFile = open('D:/log', 'r')
+        logFile = f =  open("assets/log","r") 
         row = 0
         self.logRecord = []
         while(True):
