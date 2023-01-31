@@ -43,7 +43,9 @@ def parse_data():
                     queue_data.append('NaN')
                     i+=1
                 else:
-                    data_en = line.find(' ',i)
+                    data_en_1 = line.find(' ',i)
+                    data_en_2 = line.find(',',i)
+                    data_en = min(data_en_1, data_en_2)
                     cur_data = int(line[i:data_en])
                     queue_data.append(cur_data)
                     i = data_en + 1
