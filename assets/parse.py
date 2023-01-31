@@ -1,12 +1,12 @@
 def queue_details():
-    queues = ['RDREQ','WRREQ','PBR_REQ','PBR_RSP','FILL','MISS','VICTIM','PRB_REQ','PBR_RESP','RDRESP']
+    queues = ['RDREQ','WRREQ','PBR_REQ','PBR_RSP','FILL','MISS','VICTIM','PRB_REQ','PBR_RESP','RD_RESP']
     return queues
 
 def parse_data():
 
     f =  open("assets/L1DCache","r") 
 
-    queues = ['RDREQ','WRREQ','PBR_REQ','PBR_RSP','FILL','MISS','VICTIM','PRB_REQ','PBR_RESP','RDRESP']
+    queues = queue_details()
     cyc_data = []
     print_=True
     for line in f:
