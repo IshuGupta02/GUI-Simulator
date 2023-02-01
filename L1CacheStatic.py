@@ -1,11 +1,8 @@
 from PyQt5 import uic
 from PyQt5.QtWidgets import *
 from assets import parse
-
-class PacketWindow(QMainWindow):
-    def __init__(self):
-        super().__init__()
-        uic.loadUi("packet_details.ui", self)
+from assets import packetDetail
+import math
 
 class MyGUI(QMainWindow):
 
@@ -22,17 +19,20 @@ class MyGUI(QMainWindow):
         self.current_cycle.setText("No started")
         n = 100
         self.progressBar.setMaximum(100 * n)
-        self.progressBar.setValue(0 * n)
+        self.progressBar.setValue(math.floor(0 * n))
         self.progressBar.setFormat("%.02f %%" % 0)
 
         self.Start.setEnabled(True)
         self.Start.clicked.connect(self.startDisplay)
+        self.startButtonsEnabled = False
+        self.packetButtonsConnected = False
 
         self.goToCycleBtn.clicked.connect(lambda : self.jumpCycle(self.goToCycle.text()))
         
     def displayPacket(self):
-        self.w = PacketWindow()
-        self.w.show()
+        # print(self.sender().text(), " : ", type(self.sender().text()))
+        ui = packetDetail.displayPacket(self.sender().text())
+        ui.show()
 
     def displayCycle(self, cycle):
         if cycle<0:
@@ -48,9 +48,8 @@ class MyGUI(QMainWindow):
 
         value = float(self.cycle) * 100  / float(len(self.data)-1)
         value = round(value,2)
-        self.progressBar.setValue(value * 100)
+        self.progressBar.setValue(math.floor(value * 100))
         self.progressBar.setFormat("%.02f %%" % value)
-        print("displayCycle :", self.cycle)
 
         all_queues = self.data[cycle]
 
@@ -63,14 +62,22 @@ class MyGUI(QMainWindow):
                 # remove this try except once ui changes in all queues is done
                 try:
                     x = getattr(self, buttonName)
-                    x.setText(pkt)
+                    x.setText(str(pkt))
                     if pkt!="NaN":
                         x.setEnabled(True)
+
+                        if not self.packetButtonsConnected:
+                            x.clicked.connect(lambda: self.displayPacket())
+                    else:
+                        x.setEnabled(False)
                 except:
-                    pass
+                    print("some error")
+        self.packetButtonsConnected = True
 
             
     def enableSupportButtons(self):
+        self.startButtonsEnabled = True
+
         self.Next.setEnabled(True)
         self.Next.clicked.connect(lambda : self.nextCycle(1))
 
@@ -91,7 +98,8 @@ class MyGUI(QMainWindow):
 
     def startDisplay(self):
         self.displayCycle(0)
-        self.enableSupportButtons()
+        if not self.startButtonsEnabled:
+            self.enableSupportButtons()
     
     def nextCycle(self, inc=1):
         self.displayCycle(self.cycle+inc)
