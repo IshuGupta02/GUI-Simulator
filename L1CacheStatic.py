@@ -3,6 +3,13 @@ from PyQt5.QtWidgets import *
 from assets import parse
 from assets import packetDetail
 import math
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import Qt, QSize
+from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QPushButton, QAction, QLineEdit, QMessageBox, QComboBox
+import threading
+import sys
+import numpy as np
+    
 
 class MyGUI(QMainWindow):
 
@@ -30,9 +37,9 @@ class MyGUI(QMainWindow):
         self.goToCycleBtn.clicked.connect(lambda : self.jumpCycle(self.goToCycle.text()))
         
     def displayPacket(self):
-        # print(self.sender().text(), " : ", type(self.sender().text()))
-        ui = packetDetail.displayPacket(self.sender().text())
-        ui.show()
+        setattr(self, self.sender().text(), packetDetail.displayPacket(self.sender().text()))
+        getattr(self, self.sender().text()).showMaximized()
+        getattr(self, self.sender().text()).show()
 
     def displayCycle(self, cycle):
         if cycle<0:

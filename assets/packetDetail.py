@@ -7,14 +7,17 @@ import sys
 import numpy as np
 
 
-class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
+class Ui_MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        
+    def setupUi(self):
         colNum = 0
         ColData = ["Clock","VA","TransID","PA","Core","Req State","Resp State","Req Type","Resp Type","Probe Type","C2X","CL","IL","PF", "PacketPtr",
                     "BA","PackID","Tag","Index","Bank","Way","ReqPort","IssuePort","RCS","MCS","LUS","ReqT","DecT","IssT","FwtT","MissRT","RespT","EvictT","WBT","Drop","VictimPkt","Message"]
-        self.MainWindow = MainWindow
-        MainWindow.setObjectName("MainWindow")
-        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        # self.MainWindow = MainWindow
+        self.setObjectName("MainWindow")
+        self.centralwidget = QtWidgets.QWidget(self)
         self.centralwidget.setObjectName("centralwidget")
         self.tableWidget = QtWidgets.QTableWidget(self.centralwidget)
         self.tableWidget.setGeometry(QtCore.QRect(0, 100,1850, 800))
@@ -43,25 +46,23 @@ class Ui_MainWindow(object):
         self.tableWidget.setHorizontalHeaderLabels(ColData)
         self.tableWidget.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
 
-        MainWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(self)
         self.menubar.setObjectName("menubar")
-        MainWindow.setMenuBar(self.menubar)
-        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(self)
         self.statusbar.setObjectName("statusbar")
-        MainWindow.setStatusBar(self.statusbar)
+        self.setStatusBar(self.statusbar)
 
-
-        MainWindow.setWindowTitle(QtCore.QCoreApplication.translate("MainWindow", "LogViewer"))
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
-        MainWindow.showMaximized()
-        MainWindow.show()
-
+        self.setWindowTitle(QtCore.QCoreApplication.translate("MainWindow", "LogViewer"))
+        QtCore.QMetaObject.connectSlotsByName(self)
+        
     def hideColumn(self):
         self.tableWidget.setColumnHidden(self.combobox.currentIndex(),True)
 
     def Filter(self):
         textBoxValue = self.textbox.text()
+        # print(textBoxValue)
         self.textbox.setText("")
         row = 0
         inputRow = 0
@@ -71,7 +72,7 @@ class Ui_MainWindow(object):
                 self.filteredRecord.append(self.logRecord[inputRow])
                 row = row + 1
             inputRow = inputRow + 1
-        self.viewData(self.MainWindow)
+        self.viewData()
     
 
     def loadData(self):
@@ -97,10 +98,10 @@ class Ui_MainWindow(object):
             self.logRecord.append(colData)
             row += 1
         self.filteredRecord = self.logRecord
-        self.viewData(self.MainWindow)
+        self.viewData()
         logFile.close()
 
-    def viewData(self,MainWindow):
+    def viewData(self):
         row = 0
         self.tableWidget.setRowCount(0)
         for logRecordItem in self.filteredRecord:
@@ -115,16 +116,23 @@ class Ui_MainWindow(object):
             self.tableWidget.setSortingEnabled(__sortingEnabled)
             row = row + 1
 
-        self.tableWidget.resizeColumnsToContents();
+        self.tableWidget.resizeColumnsToContents()
+    
 
 def displayPacket(pkt_id):
     # app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
+    # app = QApplication([])
+    # MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
+    ui.setupUi()
     logRecord = ui.loadData()
     ui.combobox.setCurrentIndex(16)
     ui.textbox.setText(str(pkt_id))
     ui.Filter()
-    return MainWindow
+    return ui
+    # app.exec_()
     # sys.exit(app.exec_())
+
+if __name__ == "__main__":
+    ui = displayPacket(10000) 
+    
