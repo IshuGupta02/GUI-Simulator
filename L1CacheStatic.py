@@ -9,7 +9,7 @@ from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QPushButton, QAc
 import threading
 import sys
 import numpy as np
-    
+
 
 class MyGUI(QMainWindow):
 
@@ -20,7 +20,7 @@ class MyGUI(QMainWindow):
         self.data = parse.parse_data()
         self.queues = parse.queue_details()
 
-        self.cycle=0
+        self.cycle = 0
 
         self.total_cycles.setText(str(len(self.data)-1))
         self.current_cycle.setText("No started")
@@ -34,18 +34,20 @@ class MyGUI(QMainWindow):
         self.startButtonsEnabled = False
         self.packetButtonsConnected = False
 
-        self.goToCycleBtn.clicked.connect(lambda : self.jumpCycle(self.goToCycle.text()))
-        
+        self.goToCycleBtn.clicked.connect(
+            lambda: self.jumpCycle(self.goToCycle.text()))
+
     def displayPacket(self):
-        setattr(self, self.sender().text(), packetDetail.displayPacket(self.sender().text()))
+        setattr(self, self.sender().text(),
+                packetDetail.displayPacket(16, self.sender().text()))
         getattr(self, self.sender().text()).showMaximized()
         getattr(self, self.sender().text()).show()
 
     def displayCycle(self, cycle):
-        if cycle<0:
+        if cycle < 0:
             self.cycle = len(self.data)+cycle
             cycle = self.cycle
-        elif cycle>= len(self.data):
+        elif cycle >= len(self.data):
             self.cycle = cycle % len(self.data)
             cycle = self.cycle
         else:
@@ -53,8 +55,8 @@ class MyGUI(QMainWindow):
 
         self.current_cycle.setText(str(self.cycle))
 
-        value = float(self.cycle) * 100  / float(len(self.data)-1)
-        value = round(value,2)
+        value = float(self.cycle) * 100 / float(len(self.data)-1)
+        value = round(value, 2)
         self.progressBar.setValue(math.floor(value * 100))
         self.progressBar.setFormat("%.02f %%" % value)
 
@@ -62,15 +64,15 @@ class MyGUI(QMainWindow):
 
         for i, queue in enumerate(all_queues):
             queue_name = self.queues[i]
-            
+
             for idx, pkt in enumerate(queue):
                 buttonName = queue_name+"_"+str(idx+1)
 
                 # remove this try except once ui changes in all queues is done
                 try:
                     x = getattr(self, buttonName)
-                    x.setText(str(pkt))
-                    if pkt!="NaN":
+                    if pkt != "NaN":
+                        x.setText(str(pkt))
                         x.setEnabled(True)
 
                         if not self.packetButtonsConnected:
@@ -81,39 +83,38 @@ class MyGUI(QMainWindow):
                     print("some error")
         self.packetButtonsConnected = True
 
-            
     def enableSupportButtons(self):
         self.startButtonsEnabled = True
 
         self.Next.setEnabled(True)
-        self.Next.clicked.connect(lambda : self.nextCycle(1))
+        self.Next.clicked.connect(lambda: self.nextCycle(1))
 
         self.Next_5.setEnabled(True)
-        self.Next_5.clicked.connect(lambda : self.nextCycle(5))
+        self.Next_5.clicked.connect(lambda: self.nextCycle(5))
 
         self.Next_10.setEnabled(True)
-        self.Next_10.clicked.connect(lambda : self.nextCycle(10))
+        self.Next_10.clicked.connect(lambda: self.nextCycle(10))
 
         self.Previous.setEnabled(True)
-        self.Previous.clicked.connect(lambda : self.prevCycle(1))
+        self.Previous.clicked.connect(lambda: self.prevCycle(1))
 
         self.Previous_5.setEnabled(True)
-        self.Previous_5.clicked.connect(lambda : self.prevCycle(5))
+        self.Previous_5.clicked.connect(lambda: self.prevCycle(5))
 
         self.Previous_10.setEnabled(True)
-        self.Previous_10.clicked.connect(lambda : self.prevCycle(10))
+        self.Previous_10.clicked.connect(lambda: self.prevCycle(10))
 
     def startDisplay(self):
         self.displayCycle(0)
         if not self.startButtonsEnabled:
             self.enableSupportButtons()
-    
+
     def nextCycle(self, inc=1):
         self.displayCycle(self.cycle+inc)
 
     def prevCycle(self, dec=1):
         self.displayCycle(self.cycle-dec)
-    
+
     def jumpCycle(self, cycle=0):
         try:
             cycle = int(cycle)
@@ -123,10 +124,12 @@ class MyGUI(QMainWindow):
 
         self.displayCycle(cycle)
 
+
 def main():
     app = QApplication([])
     window = MyGUI()
     app.exec_()
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     main()
