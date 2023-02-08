@@ -517,12 +517,12 @@
      <rect>
       <x>480</x>
       <y>150</y>
-      <width>55</width>
+      <width>61</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>RDREQ</string>
+     <string>RDREQ[0]</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -530,12 +530,12 @@
      <rect>
       <x>480</x>
       <y>220</y>
-      <width>55</width>
+      <width>71</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>WRREQ</string>
+     <string>WRREQ[0]</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -548,7 +548,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>PBR_REQ</string>
+     <string>PBR_REQ[0]</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
@@ -561,7 +561,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>PBR_RSP</string>
+     <string>PBR_RSP[0]</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
@@ -574,7 +574,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>FILL</string>
+     <string>FILL[0]</string>
     </property>
    </widget>
    <widget class="QPushButton" name="RDREQ_9">
@@ -1488,7 +1488,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>RD RESP</string>
+     <string>RDRESP[0]</string>
     </property>
    </widget>
    <widget class="QPushButton" name="MISS_7">
@@ -1662,12 +1662,12 @@
      <rect>
       <x>860</x>
       <y>360</y>
-      <width>71</width>
+      <width>81</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>PBR_RESP</string>
+     <string>PBR_RESP[0]</string>
     </property>
    </widget>
    <widget class="QPushButton" name="MISS_1">
@@ -1808,7 +1808,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>MISS</string>
+     <string>MISS[0]</string>
     </property>
    </widget>
    <widget class="QPushButton" name="VICTIM_10">
@@ -2445,7 +2445,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>PRB REQ</string>
+     <string>PRB_REQ[0]</string>
     </property>
    </widget>
    <widget class="QPushButton" name="PBR_RSP_21">
@@ -2751,12 +2751,12 @@
      <rect>
       <x>860</x>
       <y>220</y>
-      <width>55</width>
+      <width>61</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>VICTIM</string>
+     <string>VICTIM[0]</string>
     </property>
    </widget>
    <zorder>read_queue_5</zorder>
