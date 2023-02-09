@@ -21,7 +21,7 @@
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>760</y>
+      <y>790</y>
       <width>111</width>
       <height>41</height>
      </rect>
@@ -66,7 +66,7 @@
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>830</y>
+      <y>850</y>
       <width>118</width>
       <height>23</height>
      </rect>
@@ -2948,7 +2948,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_1">
+   <widget class="QPushButton" name="PF_16">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5717,27 +5717,11 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="MDR_1">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>640</x>
-      <y>600</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QListView" name="read_queue_19">
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>600</y>
+      <y>620</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -5747,7 +5731,7 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>600</y>
+      <y>620</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -5757,7 +5741,7 @@
     <property name="geometry">
      <rect>
       <x>640</x>
-      <y>600</y>
+      <y>620</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -5770,7 +5754,7 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>600</y>
+      <y>620</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -5786,7 +5770,7 @@
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>600</y>
+      <y>620</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -5834,27 +5818,11 @@
      <string>0</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="DRD_1">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>600</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QListView" name="read_queue_23">
     <property name="geometry">
      <rect>
       <x>290</x>
-      <y>600</y>
+      <y>620</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -5864,7 +5832,7 @@
     <property name="geometry">
      <rect>
       <x>290</x>
-      <y>630</y>
+      <y>590</y>
       <width>41</width>
       <height>20</height>
      </rect>
@@ -5877,7 +5845,7 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>630</y>
+      <y>590</y>
       <width>41</width>
       <height>20</height>
      </rect>
@@ -5890,7 +5858,7 @@
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>630</y>
+      <y>590</y>
       <width>41</width>
       <height>20</height>
      </rect>
@@ -5903,7 +5871,7 @@
     <property name="geometry">
      <rect>
       <x>640</x>
-      <y>630</y>
+      <y>590</y>
       <width>41</width>
       <height>20</height>
      </rect>
@@ -5912,7 +5880,7 @@
      <string>MDR</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_2">
+   <widget class="QPushButton" name="PF_15">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5928,7 +5896,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_3">
+   <widget class="QPushButton" name="PF_14">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5944,7 +5912,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_4">
+   <widget class="QPushButton" name="PF_13">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5960,7 +5928,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_5">
+   <widget class="QPushButton" name="PF_12">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5976,7 +5944,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_6">
+   <widget class="QPushButton" name="PF_11">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5992,7 +5960,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_7">
+   <widget class="QPushButton" name="PF_10">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6008,7 +5976,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_8">
+   <widget class="QPushButton" name="PF_9">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6024,7 +5992,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_9">
+   <widget class="QPushButton" name="PF_8">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6040,7 +6008,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_10">
+   <widget class="QPushButton" name="PF_7">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6056,7 +6024,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_11">
+   <widget class="QPushButton" name="PF_6">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6072,7 +6040,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_12">
+   <widget class="QPushButton" name="PF_5">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6088,7 +6056,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_13">
+   <widget class="QPushButton" name="PF_4">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6104,7 +6072,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_14">
+   <widget class="QPushButton" name="PF_3">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6120,7 +6088,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_15">
+   <widget class="QPushButton" name="PF_2">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6136,7 +6104,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_16">
+   <widget class="QPushButton" name="PF_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6144,6 +6112,350 @@
      <rect>
       <x>640</x>
       <y>250</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DRD_1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>620</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MDR_1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>620</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_24">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>660</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_25">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>660</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_26">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>660</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_27">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>660</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TWR_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>660</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DRD_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>660</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DWR_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>660</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MDR_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>660</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_28">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>710</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_29">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>710</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_30">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>710</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_31">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>710</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MDR_3">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>710</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TWR_3">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>710</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DRD_3">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>710</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DWR_3">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>710</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_32">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>750</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_33">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>750</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_34">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>750</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="read_queue_35">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>750</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DWR_4">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>750</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TWR_4">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>750</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DRD_4">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>750</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MDR_4">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>750</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6341,7 +6653,7 @@
    <zorder>WRREQ_25</zorder>
    <zorder>WRREQ_26</zorder>
    <zorder>read_queue_11</zorder>
-   <zorder>PF_1</zorder>
+   <zorder>PF_16</zorder>
    <zorder>PBR_RESP_9</zorder>
    <zorder>PBR_RESP_10</zorder>
    <zorder>PBR_RESP_11</zorder>
@@ -6518,7 +6830,6 @@
    <zorder>label_21</zorder>
    <zorder>read_queue_18</zorder>
    <zorder>ZERO_4</zorder>
-   <zorder>MDR_1</zorder>
    <zorder>read_queue_19</zorder>
    <zorder>read_queue_20</zorder>
    <zorder>read_queue_21</zorder>
@@ -6527,27 +6838,52 @@
    <zorder>read_queue_22</zorder>
    <zorder>ZERO_1</zorder>
    <zorder>label_25</zorder>
-   <zorder>DRD_1</zorder>
    <zorder>read_queue_23</zorder>
    <zorder>label_26</zorder>
    <zorder>label_27</zorder>
    <zorder>label_28</zorder>
    <zorder>label_29</zorder>
-   <zorder>PF_2</zorder>
-   <zorder>PF_3</zorder>
-   <zorder>PF_4</zorder>
-   <zorder>PF_5</zorder>
-   <zorder>PF_6</zorder>
-   <zorder>PF_7</zorder>
-   <zorder>PF_8</zorder>
-   <zorder>PF_9</zorder>
-   <zorder>PF_10</zorder>
-   <zorder>PF_11</zorder>
-   <zorder>PF_12</zorder>
-   <zorder>PF_13</zorder>
-   <zorder>PF_14</zorder>
    <zorder>PF_15</zorder>
-   <zorder>PF_16</zorder>
+   <zorder>PF_14</zorder>
+   <zorder>PF_13</zorder>
+   <zorder>PF_12</zorder>
+   <zorder>PF_11</zorder>
+   <zorder>PF_10</zorder>
+   <zorder>PF_9</zorder>
+   <zorder>PF_8</zorder>
+   <zorder>PF_7</zorder>
+   <zorder>PF_6</zorder>
+   <zorder>PF_5</zorder>
+   <zorder>PF_4</zorder>
+   <zorder>PF_3</zorder>
+   <zorder>PF_2</zorder>
+   <zorder>PF_1</zorder>
+   <zorder>DRD_1</zorder>
+   <zorder>MDR_1</zorder>
+   <zorder>read_queue_24</zorder>
+   <zorder>read_queue_25</zorder>
+   <zorder>read_queue_26</zorder>
+   <zorder>read_queue_27</zorder>
+   <zorder>TWR_2</zorder>
+   <zorder>DRD_2</zorder>
+   <zorder>DWR_2</zorder>
+   <zorder>MDR_2</zorder>
+   <zorder>read_queue_28</zorder>
+   <zorder>read_queue_29</zorder>
+   <zorder>read_queue_30</zorder>
+   <zorder>read_queue_31</zorder>
+   <zorder>MDR_3</zorder>
+   <zorder>TWR_3</zorder>
+   <zorder>DRD_3</zorder>
+   <zorder>DWR_3</zorder>
+   <zorder>read_queue_32</zorder>
+   <zorder>read_queue_33</zorder>
+   <zorder>read_queue_34</zorder>
+   <zorder>read_queue_35</zorder>
+   <zorder>DWR_4</zorder>
+   <zorder>TWR_4</zorder>
+   <zorder>DRD_4</zorder>
+   <zorder>MDR_4</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
