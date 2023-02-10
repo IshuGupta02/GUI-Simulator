@@ -1,6 +1,6 @@
 import os, timeit
 
-def parse_data():
+def load_data():
 
     f =  open("assets/files/L1ICache","r") 
 
@@ -88,9 +88,12 @@ def parse_data():
 
     return cyc_data
 
-
-if __name__ == "__main__":
+def parse_data():
     start_t = timeit.default_timer()
-    data = parse_data()
+    data = load_data()
     end_t = timeit.default_timer()
     print("Time Required to load data: ", (end_t-start_t))
+    return data
+
+if __name__ == "__main__":
+    data = parse_data()

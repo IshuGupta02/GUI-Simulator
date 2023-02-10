@@ -74,7 +74,10 @@ class Ui_MainWindow(QMainWindow):
         self.viewData()
 
     def loadData(self):
-        logFile = f = open("assets/log", "r")
+        print("Started loading log data")
+        logFile = f = open("assets/files/log", "r")
+        print("Loaded log data")
+
         row = 0
         self.logRecord = []
         while(True):

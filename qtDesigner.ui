@@ -3070,7 +3070,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_TRAIN_1">
+   <widget class="QPushButton" name="PFTRAIN_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -3099,7 +3099,7 @@
      <string>PFTRAIN[0]</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_TRAIN_3">
+   <widget class="QPushButton" name="PFTRAIN_3">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5440,7 +5440,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_TRAIN_2">
+   <widget class="QPushButton" name="PFTRAIN_2">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5456,7 +5456,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_TRAIN_4">
+   <widget class="QPushButton" name="PFTRAIN_4">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5472,7 +5472,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_TRAIN_5">
+   <widget class="QPushButton" name="PFTRAIN_5">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5488,7 +5488,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_TRAIN_6">
+   <widget class="QPushButton" name="PFTRAIN_6">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5504,7 +5504,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_TRAIN_7">
+   <widget class="QPushButton" name="PFTRAIN_7">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5520,7 +5520,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PF_TRAIN_8">
+   <widget class="QPushButton" name="PFTRAIN_8">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5610,7 +5610,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="ZERO_2">
+   <widget class="QPushButton" name="IssCtrl1_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5649,7 +5649,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="ZERO_3">
+   <widget class="QPushButton" name="IssCtrl2_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5701,7 +5701,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="ZERO_4">
+   <widget class="QPushButton" name="IssCtrl3_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5747,7 +5747,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="DWR_1">
+   <widget class="QPushButton" name="DWR0_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5763,7 +5763,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="TWR_1">
+   <widget class="QPushButton" name="TWR0_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -5789,7 +5789,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="ZERO_1">
+   <widget class="QPushButton" name="IssCtrl0_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6120,7 +6120,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="DRD_1">
+   <widget class="QPushButton" name="DRD0_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6136,7 +6136,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="MDR_1">
+   <widget class="QPushButton" name="MDR0_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6192,7 +6192,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="TWR_2">
+   <widget class="QPushButton" name="TWR1_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6208,7 +6208,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="DRD_2">
+   <widget class="QPushButton" name="DRD1_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6224,7 +6224,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="DWR_2">
+   <widget class="QPushButton" name="DWR1_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6240,7 +6240,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="MDR_2">
+   <widget class="QPushButton" name="MDR1_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6296,7 +6296,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="MDR_3">
+   <widget class="QPushButton" name="MDR2_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6312,7 +6312,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="TWR_3">
+   <widget class="QPushButton" name="TWR2_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6328,7 +6328,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="DRD_3">
+   <widget class="QPushButton" name="DRD2_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6344,7 +6344,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="DWR_3">
+   <widget class="QPushButton" name="DWR2_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6400,7 +6400,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="DWR_4">
+   <widget class="QPushButton" name="DWR3_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6416,7 +6416,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="TWR_4">
+   <widget class="QPushButton" name="TWR3_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6432,7 +6432,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="DRD_4">
+   <widget class="QPushButton" name="DRD3_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6448,7 +6448,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="MDR_4">
+   <widget class="QPushButton" name="MDR3_1">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -6661,9 +6661,9 @@
    <zorder>PBR_RESP_13</zorder>
    <zorder>PBR_RESP_14</zorder>
    <zorder>read_queue_12</zorder>
-   <zorder>PF_TRAIN_1</zorder>
+   <zorder>PFTRAIN_1</zorder>
    <zorder>label_15</zorder>
-   <zorder>PF_TRAIN_3</zorder>
+   <zorder>PFTRAIN_3</zorder>
    <zorder>RD_RESP_17</zorder>
    <zorder>RD_RESP_18</zorder>
    <zorder>FILL_26</zorder>
@@ -6811,32 +6811,32 @@
    <zorder>PRB_SHR_11</zorder>
    <zorder>PRB_SHR_14</zorder>
    <zorder>PRB_SHR_15</zorder>
-   <zorder>PF_TRAIN_2</zorder>
-   <zorder>PF_TRAIN_4</zorder>
-   <zorder>PF_TRAIN_5</zorder>
-   <zorder>PF_TRAIN_6</zorder>
-   <zorder>PF_TRAIN_7</zorder>
-   <zorder>PF_TRAIN_8</zorder>
+   <zorder>PFTRAIN_2</zorder>
+   <zorder>PFTRAIN_4</zorder>
+   <zorder>PFTRAIN_5</zorder>
+   <zorder>PFTRAIN_6</zorder>
+   <zorder>PFTRAIN_7</zorder>
+   <zorder>PFTRAIN_8</zorder>
    <zorder>RD_SHR_31</zorder>
    <zorder>RD_SHR_32</zorder>
    <zorder>VIC_BUF_31</zorder>
    <zorder>VIC_BUF_32</zorder>
    <zorder>read_queue_16</zorder>
-   <zorder>ZERO_2</zorder>
+   <zorder>IssCtrl1_1</zorder>
    <zorder>label_19</zorder>
    <zorder>read_queue_17</zorder>
-   <zorder>ZERO_3</zorder>
+   <zorder>IssCtrl2_1</zorder>
    <zorder>label_20</zorder>
    <zorder>label_21</zorder>
    <zorder>read_queue_18</zorder>
-   <zorder>ZERO_4</zorder>
+   <zorder>IssCtrl3_1</zorder>
    <zorder>read_queue_19</zorder>
    <zorder>read_queue_20</zorder>
    <zorder>read_queue_21</zorder>
-   <zorder>DWR_1</zorder>
-   <zorder>TWR_1</zorder>
+   <zorder>DWR0_1</zorder>
+   <zorder>TWR0_1</zorder>
    <zorder>read_queue_22</zorder>
-   <zorder>ZERO_1</zorder>
+   <zorder>IssCtrl0_1</zorder>
    <zorder>label_25</zorder>
    <zorder>read_queue_23</zorder>
    <zorder>label_26</zorder>
@@ -6858,32 +6858,32 @@
    <zorder>PF_3</zorder>
    <zorder>PF_2</zorder>
    <zorder>PF_1</zorder>
-   <zorder>DRD_1</zorder>
-   <zorder>MDR_1</zorder>
+   <zorder>DRD0_1</zorder>
+   <zorder>MDR0_1</zorder>
    <zorder>read_queue_24</zorder>
    <zorder>read_queue_25</zorder>
    <zorder>read_queue_26</zorder>
    <zorder>read_queue_27</zorder>
-   <zorder>TWR_2</zorder>
-   <zorder>DRD_2</zorder>
-   <zorder>DWR_2</zorder>
-   <zorder>MDR_2</zorder>
+   <zorder>TWR1_1</zorder>
+   <zorder>DRD1_1</zorder>
+   <zorder>DWR1_1</zorder>
+   <zorder>MDR1_1</zorder>
    <zorder>read_queue_28</zorder>
    <zorder>read_queue_29</zorder>
    <zorder>read_queue_30</zorder>
    <zorder>read_queue_31</zorder>
-   <zorder>MDR_3</zorder>
-   <zorder>TWR_3</zorder>
-   <zorder>DRD_3</zorder>
-   <zorder>DWR_3</zorder>
+   <zorder>MDR2_1</zorder>
+   <zorder>TWR2_1</zorder>
+   <zorder>DRD2_1</zorder>
+   <zorder>DWR2_1</zorder>
    <zorder>read_queue_32</zorder>
    <zorder>read_queue_33</zorder>
    <zorder>read_queue_34</zorder>
    <zorder>read_queue_35</zorder>
-   <zorder>DWR_4</zorder>
-   <zorder>TWR_4</zorder>
-   <zorder>DRD_4</zorder>
-   <zorder>MDR_4</zorder>
+   <zorder>DWR3_1</zorder>
+   <zorder>TWR3_1</zorder>
+   <zorder>DRD3_1</zorder>
+   <zorder>MDR3_1</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
