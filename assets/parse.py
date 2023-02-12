@@ -84,7 +84,7 @@ def load_data():
             
         cyc_data.append(curr_cyc_data)
 
-        os.system('cls')
+        # os.system('clear')
 
     return cyc_data
 

@@ -146,14 +146,16 @@ class MyGUI(QMainWindow):
                         x = getattr(self, buttonName)
                         x.setText(str(pkt))
 
+                        if not self.packetButtonsConnected:
+                                x.clicked.connect(lambda: self.displayPacket())
+
                         if pkt != "":
                             x.setEnabled(True)
-                            if not self.packetButtonsConnected:
-                                x.clicked.connect(lambda: self.displayPacket())
+                            
                         else:
                             x.setEnabled(False)
                     except:
-                        print("some error in ", buttonName)
+                        print("Some error in ", buttonName)
 
 
         self.packetButtonsConnected = True

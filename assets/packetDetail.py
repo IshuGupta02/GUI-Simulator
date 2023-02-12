@@ -110,10 +110,9 @@ class Ui_MainWindow(QMainWindow):
 
             self.logRecord.append(colData)
             row += 1
-
-            os.system('cls')
+            os.system('clear')
+        print("Data loaded")
         self.filteredRecord = self.logRecord
-        self.viewData()
         logFile.close()
 
         np.save('logrecord.npy', self.logRecord)
@@ -154,7 +153,7 @@ class Ui_MainWindow(QMainWindow):
         self.tableWidget.resizeColumnsToContents()
 
 
-def displayPacket(colNum, pkt_id, logRecord=None):
+def displayPacket(colNum, pkt_id, logRecord=None):  
     ui = Ui_MainWindow()
     ui.setupUi()
 
