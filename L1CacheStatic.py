@@ -79,8 +79,8 @@ class MyGUI(QMainWindow):
         if path.is_file():
             self.data = np.load('L1ICache.npy', allow_pickle = True)
         else:
-            self.data = data_sample
-            # self.data = parse.parse_data()
+            # self.data = data_sample
+            self.data = parse.parse_data()
             np.save('L1ICache.npy', self.data)
         
         self.queues = queues_qt

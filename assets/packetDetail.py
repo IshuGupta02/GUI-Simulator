@@ -4,7 +4,8 @@ from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QPushButton, QAc
 import threading
 import sys
 import numpy as np
-
+import os
+from pathlib import Path
 
 class Ui_MainWindow(QMainWindow):
     def __init__(self):
@@ -74,6 +75,13 @@ class Ui_MainWindow(QMainWindow):
         self.viewData()
 
     def loadData(self):
+
+        path = Path('logrecord.npy')
+
+        if path.is_file():
+            self.logRecord = np.load('logrecord.npy', allow_pickle = True)
+            return self.logRecord
+
         print("Started loading log data")
         logFile = f = open("assets/files/log", "r")
         print("Loaded log data")
@@ -81,6 +89,8 @@ class Ui_MainWindow(QMainWindow):
         row = 0
         self.logRecord = []
         while(True):
+
+            print("Row number: ", row)
             line = logFile.readline()
             if not line:
                 break
@@ -100,9 +110,15 @@ class Ui_MainWindow(QMainWindow):
 
             self.logRecord.append(colData)
             row += 1
+
+            os.system('cls')
         self.filteredRecord = self.logRecord
         self.viewData()
         logFile.close()
+
+        np.save('logrecord.npy', self.logRecord)
+
+        return self.logRecord
 
     def applyFilter(self, objName, pkt_id, logRecord):
         colNum = int(objName.split(' ')[1])
