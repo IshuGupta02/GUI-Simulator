@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>2475</width>
-    <height>939</height>
+    <width>2249</width>
+    <height>1075</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,7 +21,7 @@
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>790</y>
+      <y>850</y>
       <width>111</width>
       <height>41</height>
      </rect>
@@ -37,7 +37,7 @@
     <property name="geometry">
      <rect>
       <x>760</x>
-      <y>850</y>
+      <y>940</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -53,7 +53,7 @@
     <property name="geometry">
      <rect>
       <x>760</x>
-      <y>810</y>
+      <y>900</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -66,7 +66,7 @@
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>850</y>
+      <y>910</y>
       <width>118</width>
       <height>23</height>
      </rect>
@@ -1009,7 +1009,7 @@
     <property name="geometry">
      <rect>
       <x>860</x>
-      <y>810</y>
+      <y>900</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -1025,7 +1025,7 @@
     <property name="geometry">
      <rect>
       <x>960</x>
-      <y>810</y>
+      <y>900</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -1041,7 +1041,7 @@
     <property name="geometry">
      <rect>
       <x>860</x>
-      <y>850</y>
+      <y>940</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -1057,7 +1057,7 @@
     <property name="geometry">
      <rect>
       <x>960</x>
-      <y>850</y>
+      <y>940</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -1137,7 +1137,7 @@
     <property name="geometry">
      <rect>
       <x>992</x>
-      <y>760</y>
+      <y>850</y>
       <width>61</width>
       <height>28</height>
      </rect>
@@ -1153,7 +1153,7 @@
     <property name="geometry">
      <rect>
       <x>860</x>
-      <y>760</y>
+      <y>850</y>
       <width>121</width>
       <height>31</height>
      </rect>
@@ -1163,7 +1163,7 @@
     <property name="geometry">
      <rect>
       <x>720</x>
-      <y>750</y>
+      <y>840</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -5603,7 +5603,7 @@
    <widget class="QListView" name="read_queue_16">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>300</x>
       <y>530</y>
       <width>41</width>
       <height>31</height>
@@ -5616,7 +5616,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>300</x>
       <y>530</y>
       <width>41</width>
       <height>31</height>
@@ -5629,8 +5629,8 @@
    <widget class="QLabel" name="label_19">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>560</y>
+      <x>280</x>
+      <y>530</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -5642,7 +5642,7 @@
    <widget class="QListView" name="read_queue_17">
     <property name="geometry">
      <rect>
-      <x>530</x>
+      <x>470</x>
       <y>530</y>
       <width>41</width>
       <height>31</height>
@@ -5655,7 +5655,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>530</x>
+      <x>470</x>
       <y>530</y>
       <width>41</width>
       <height>31</height>
@@ -5668,8 +5668,8 @@
    <widget class="QLabel" name="label_20">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>560</y>
+      <x>440</x>
+      <y>530</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -5681,8 +5681,8 @@
    <widget class="QLabel" name="label_21">
     <property name="geometry">
      <rect>
-      <x>650</x>
-      <y>560</y>
+      <x>610</x>
+      <y>530</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -5720,8 +5720,8 @@
    <widget class="QListView" name="read_queue_19">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>620</y>
+      <x>470</x>
+      <y>640</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -5730,8 +5730,8 @@
    <widget class="QListView" name="read_queue_20">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>620</y>
+      <x>300</x>
+      <y>640</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -5741,7 +5741,7 @@
     <property name="geometry">
      <rect>
       <x>640</x>
-      <y>620</y>
+      <y>640</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -5753,8 +5753,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>620</y>
+      <x>300</x>
+      <y>640</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -5769,8 +5769,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>620</y>
+      <x>470</x>
+      <y>640</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -5782,7 +5782,7 @@
    <widget class="QListView" name="read_queue_22">
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>130</x>
       <y>530</y>
       <width>41</width>
       <height>31</height>
@@ -5795,7 +5795,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>130</x>
       <y>530</y>
       <width>41</width>
       <height>31</height>
@@ -5808,8 +5808,8 @@
    <widget class="QLabel" name="label_25">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>560</y>
+      <x>100</x>
+      <y>530</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -5821,8 +5821,8 @@
    <widget class="QListView" name="read_queue_23">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>620</y>
+      <x>130</x>
+      <y>640</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -5831,8 +5831,8 @@
    <widget class="QLabel" name="label_26">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>590</y>
+      <x>130</x>
+      <y>610</y>
       <width>41</width>
       <height>20</height>
      </rect>
@@ -5844,8 +5844,8 @@
    <widget class="QLabel" name="label_27">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>590</y>
+      <x>300</x>
+      <y>610</y>
       <width>41</width>
       <height>20</height>
      </rect>
@@ -5857,8 +5857,8 @@
    <widget class="QLabel" name="label_28">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>590</y>
+      <x>470</x>
+      <y>610</y>
       <width>41</width>
       <height>20</height>
      </rect>
@@ -5871,7 +5871,7 @@
     <property name="geometry">
      <rect>
       <x>640</x>
-      <y>590</y>
+      <y>610</y>
       <width>41</width>
       <height>20</height>
      </rect>
@@ -6126,8 +6126,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>620</y>
+      <x>130</x>
+      <y>640</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6143,7 +6143,7 @@
     <property name="geometry">
      <rect>
       <x>640</x>
-      <y>620</y>
+      <y>640</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6155,8 +6155,8 @@
    <widget class="QListView" name="read_queue_24">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>660</y>
+      <x>300</x>
+      <y>680</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6166,7 +6166,7 @@
     <property name="geometry">
      <rect>
       <x>640</x>
-      <y>660</y>
+      <y>680</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6175,8 +6175,8 @@
    <widget class="QListView" name="read_queue_26">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>660</y>
+      <x>130</x>
+      <y>680</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6185,8 +6185,8 @@
    <widget class="QListView" name="read_queue_27">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>660</y>
+      <x>470</x>
+      <y>680</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6198,8 +6198,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>660</y>
+      <x>470</x>
+      <y>680</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6214,8 +6214,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>660</y>
+      <x>130</x>
+      <y>680</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6230,8 +6230,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>660</y>
+      <x>300</x>
+      <y>680</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6247,7 +6247,7 @@
     <property name="geometry">
      <rect>
       <x>640</x>
-      <y>660</y>
+      <y>680</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6259,8 +6259,8 @@
    <widget class="QListView" name="read_queue_28">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>710</y>
+      <x>300</x>
+      <y>730</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6270,7 +6270,7 @@
     <property name="geometry">
      <rect>
       <x>640</x>
-      <y>710</y>
+      <y>730</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6279,8 +6279,8 @@
    <widget class="QListView" name="read_queue_30">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>710</y>
+      <x>130</x>
+      <y>730</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6289,8 +6289,8 @@
    <widget class="QListView" name="read_queue_31">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>710</y>
+      <x>470</x>
+      <y>730</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6303,7 +6303,7 @@
     <property name="geometry">
      <rect>
       <x>640</x>
-      <y>710</y>
+      <y>730</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6318,8 +6318,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>710</y>
+      <x>470</x>
+      <y>730</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6334,8 +6334,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>710</y>
+      <x>130</x>
+      <y>730</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6350,8 +6350,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>710</y>
+      <x>300</x>
+      <y>730</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6363,8 +6363,8 @@
    <widget class="QListView" name="read_queue_32">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>750</y>
+      <x>300</x>
+      <y>770</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6374,7 +6374,7 @@
     <property name="geometry">
      <rect>
       <x>640</x>
-      <y>750</y>
+      <y>770</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6383,8 +6383,8 @@
    <widget class="QListView" name="read_queue_34">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>750</y>
+      <x>130</x>
+      <y>770</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6393,8 +6393,8 @@
    <widget class="QListView" name="read_queue_35">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>750</y>
+      <x>470</x>
+      <y>770</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6406,8 +6406,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>750</y>
+      <x>300</x>
+      <y>770</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6422,8 +6422,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>750</y>
+      <x>470</x>
+      <y>770</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6438,8 +6438,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>750</y>
+      <x>130</x>
+      <y>770</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -6455,13 +6455,1391 @@
     <property name="geometry">
      <rect>
       <x>640</x>
-      <y>750</y>
+      <y>770</y>
       <width>41</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RDREQ_M">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>150</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RDREQ_A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>150</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RDREQ_C">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>150</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="WRREQ_M">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>220</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="WRREQ_A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>220</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="WRREQ_C">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>220</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF_M">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>290</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF_C">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>290</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF_A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>290</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PBR_REQ_C">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>330</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PBR_REQ_M">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>330</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PBR_REQ_A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>330</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PBR_RSP_C">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>400</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PBR_RSP_A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>400</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PBR_RSP_M">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>400</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FILL_A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>500</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FILL_M">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>500</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FILL_C">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>500</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IssCtrl0_A">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>580</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IssCtrl0_M">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>580</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IssCtrl0_C">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>580</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IssCtrl1_A">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>580</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IssCtrl1_C">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>580</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IssCtrl1_M">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>580</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IssCtrl2_A">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>580</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IssCtrl2_M">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>580</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IssCtrl2_C">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>580</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IssCtrl3_M">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>580</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IssCtrl3_A">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>580</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IssCtrl3_C">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>580</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DRD0_A">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>650</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DRD0_C">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>650</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DRD0_M">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>650</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DRD1_C">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>690</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DRD1_M">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>690</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DRD1_A">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>690</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DRD2_C">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>740</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DRD2_M">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>740</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DRD2_A">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>740</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DRD3_M">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>780</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DRD3_A">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>780</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DRD3_C">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>780</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DWR0_C">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>650</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DWR0_M">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>650</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DWR0_A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>650</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DWR1_C">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>690</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DWR1_A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>690</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DWR1_M">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>690</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DWR2_C">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>740</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DWR2_A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>740</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DWR2_M">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>740</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DWR3_A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>780</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DWR3_M">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>780</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DWR3_C">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>780</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TWR0_C">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>650</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TWR0_A">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>650</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TWR0_M">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>650</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TWR1_A">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>690</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TWR1_C">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>690</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TWR1_M">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>690</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TWR2_A">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>740</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TWR2_M">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>740</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TWR2_C">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>740</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TWR3_C">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>780</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TWR3_M">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>780</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TWR3_A">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>780</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MDR0_A">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>650</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MDR0_C">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>650</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MDR0_M">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>650</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MDR1_A">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>690</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MDR1_C">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>690</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MDR1_M">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>690</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MDR2_C">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>740</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MDR2_M">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>740</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MDR2_A">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>740</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MDR3_M">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>780</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MDR3_C">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>780</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MDR3_A">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>780</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MISS_A">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>150</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MISS_M">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>150</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MISS_C">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>150</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="VICTIM_A">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>220</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="VICTIM_C">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>220</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="VICTIM_M">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>220</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PRB_REQ_A">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>260</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PRB_REQ_C">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>260</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PRB_REQ_M">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>260</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PBR_RESP_A">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>330</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PBR_RESP_C">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>330</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PBR_RESP_M">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>330</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RD_RESP_A">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>430</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RD_RESP_M">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>430</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RD_RESP_C">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>430</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PFTRAIN_A">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>470</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PFTRAIN_M">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>470</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PFTRAIN_C">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>470</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RD_SHR_M">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>570</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RD_SHR_C">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>570</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RD_SHR_A">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>570</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="VIC_BUF_M">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>640</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="VIC_BUF_A">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>640</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="VIC_BUF_C">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>640</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PRB_SHR_M">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>710</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PRB_SHR_A">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>710</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PRB_SHR_C">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>710</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="convention">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Convention:The numbers represent M A C (with each queue)</string>
     </property>
    </widget>
    <zorder>read_queue_5</zorder>
@@ -6884,13 +8262,119 @@
    <zorder>TWR3_1</zorder>
    <zorder>DRD3_1</zorder>
    <zorder>MDR3_1</zorder>
+   <zorder>RDREQ_M</zorder>
+   <zorder>RDREQ_A</zorder>
+   <zorder>RDREQ_C</zorder>
+   <zorder>WRREQ_M</zorder>
+   <zorder>WRREQ_A</zorder>
+   <zorder>WRREQ_C</zorder>
+   <zorder>PF_M</zorder>
+   <zorder>PF_C</zorder>
+   <zorder>PF_A</zorder>
+   <zorder>PBR_REQ_C</zorder>
+   <zorder>PBR_REQ_M</zorder>
+   <zorder>PBR_REQ_A</zorder>
+   <zorder>PBR_RSP_C</zorder>
+   <zorder>PBR_RSP_A</zorder>
+   <zorder>PBR_RSP_M</zorder>
+   <zorder>FILL_A</zorder>
+   <zorder>FILL_M</zorder>
+   <zorder>FILL_C</zorder>
+   <zorder>IssCtrl0_A</zorder>
+   <zorder>IssCtrl0_M</zorder>
+   <zorder>IssCtrl0_C</zorder>
+   <zorder>IssCtrl1_A</zorder>
+   <zorder>IssCtrl1_C</zorder>
+   <zorder>IssCtrl1_M</zorder>
+   <zorder>IssCtrl2_A</zorder>
+   <zorder>IssCtrl2_M</zorder>
+   <zorder>IssCtrl2_C</zorder>
+   <zorder>IssCtrl3_M</zorder>
+   <zorder>IssCtrl3_A</zorder>
+   <zorder>IssCtrl3_C</zorder>
+   <zorder>DRD0_A</zorder>
+   <zorder>DRD0_C</zorder>
+   <zorder>DRD0_M</zorder>
+   <zorder>DRD1_C</zorder>
+   <zorder>DRD1_M</zorder>
+   <zorder>DRD1_A</zorder>
+   <zorder>DRD2_C</zorder>
+   <zorder>DRD2_M</zorder>
+   <zorder>DRD2_A</zorder>
+   <zorder>DRD3_M</zorder>
+   <zorder>DRD3_A</zorder>
+   <zorder>DRD3_C</zorder>
+   <zorder>DWR0_C</zorder>
+   <zorder>DWR0_M</zorder>
+   <zorder>DWR0_A</zorder>
+   <zorder>DWR1_C</zorder>
+   <zorder>DWR1_A</zorder>
+   <zorder>DWR1_M</zorder>
+   <zorder>DWR2_C</zorder>
+   <zorder>DWR2_A</zorder>
+   <zorder>DWR2_M</zorder>
+   <zorder>DWR3_A</zorder>
+   <zorder>DWR3_M</zorder>
+   <zorder>DWR3_C</zorder>
+   <zorder>TWR0_C</zorder>
+   <zorder>TWR0_A</zorder>
+   <zorder>TWR0_M</zorder>
+   <zorder>TWR1_A</zorder>
+   <zorder>TWR1_C</zorder>
+   <zorder>TWR1_M</zorder>
+   <zorder>TWR2_A</zorder>
+   <zorder>TWR2_M</zorder>
+   <zorder>TWR2_C</zorder>
+   <zorder>TWR3_C</zorder>
+   <zorder>TWR3_M</zorder>
+   <zorder>TWR3_A</zorder>
+   <zorder>MDR0_A</zorder>
+   <zorder>MDR0_C</zorder>
+   <zorder>MDR0_M</zorder>
+   <zorder>MDR1_A</zorder>
+   <zorder>MDR1_C</zorder>
+   <zorder>MDR1_M</zorder>
+   <zorder>MDR2_C</zorder>
+   <zorder>MDR2_M</zorder>
+   <zorder>MDR2_A</zorder>
+   <zorder>MDR3_M</zorder>
+   <zorder>MDR3_C</zorder>
+   <zorder>MDR3_A</zorder>
+   <zorder>MISS_A</zorder>
+   <zorder>MISS_M</zorder>
+   <zorder>MISS_C</zorder>
+   <zorder>VICTIM_A</zorder>
+   <zorder>VICTIM_C</zorder>
+   <zorder>VICTIM_M</zorder>
+   <zorder>PRB_REQ_A</zorder>
+   <zorder>PRB_REQ_C</zorder>
+   <zorder>PRB_REQ_M</zorder>
+   <zorder>PBR_RESP_A</zorder>
+   <zorder>PBR_RESP_C</zorder>
+   <zorder>PBR_RESP_M</zorder>
+   <zorder>RD_RESP_A</zorder>
+   <zorder>RD_RESP_M</zorder>
+   <zorder>RD_RESP_C</zorder>
+   <zorder>PFTRAIN_A</zorder>
+   <zorder>PFTRAIN_M</zorder>
+   <zorder>PFTRAIN_C</zorder>
+   <zorder>RD_SHR_M</zorder>
+   <zorder>RD_SHR_C</zorder>
+   <zorder>RD_SHR_A</zorder>
+   <zorder>VIC_BUF_M</zorder>
+   <zorder>VIC_BUF_A</zorder>
+   <zorder>VIC_BUF_C</zorder>
+   <zorder>PRB_SHR_M</zorder>
+   <zorder>PRB_SHR_A</zorder>
+   <zorder>PRB_SHR_C</zorder>
+   <zorder>convention</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>2475</width>
+     <width>2249</width>
      <height>26</height>
     </rect>
    </property>
