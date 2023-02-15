@@ -139,6 +139,28 @@ class MyGUI(QMainWindow):
 
                 prefix = self.queues[token][queue]
 
+                label_m = prefix+"_"+"M"
+                label_a = prefix+"_"+"A"
+                label_c = prefix+"_"+"C"
+
+                try: 
+                    x = getattr(self, label_m)
+                    x.setText(str(m))
+                except:
+                    print("Some error in ", label_m)
+                
+                try: 
+                    x = getattr(self, label_a)
+                    x.setText(str(a))
+                except:
+                    print("Some error in ", label_a)
+                
+                try: 
+                    x = getattr(self, label_c)
+                    x.setText(str(c))
+                except:
+                    print("Some error in ", label_c)
+
                 for idx, pkt in enumerate(packets):
                     buttonName = prefix+"_"+str(idx+1)
 
