@@ -6,6 +6,15 @@ import sys
 import numpy as np
 import os
 from pathlib import Path
+from sys import platform
+
+
+
+def clearOutput():
+    if platform == "linux" or platform == "linux2":
+        os.system('clear')
+    elif platform == "win32":
+        os.system('cls')
 
 class Ui_MainWindow(QMainWindow):
     def __init__(self):
@@ -79,7 +88,9 @@ class Ui_MainWindow(QMainWindow):
         path = Path('logrecord.npy')
 
         if path.is_file():
+            print("Loading already existing file")
             self.logRecord = np.load('logrecord.npy', allow_pickle = True)
+            print("Loaded")
             return self.logRecord
 
         print("Started loading log data")
@@ -110,7 +121,7 @@ class Ui_MainWindow(QMainWindow):
 
             self.logRecord.append(colData)
             row += 1
-            os.system('clear')
+            clearOutput()
         print("Data loaded")
         self.filteredRecord = self.logRecord
         logFile.close()
@@ -157,10 +168,14 @@ def displayPacket(colNum, pkt_id, logRecord=None):
     ui = Ui_MainWindow()
     ui.setupUi()
 
-    if not logRecord:
+    print("setupUi")
+
+    if logRecord is None:
         logRecord = ui.loadData()
     else:
         ui.logRecord = logRecord
+
+    print("logRecord Loaded")
 
     ui.combobox.setCurrentIndex(colNum)
     ui.textbox.setText(str(pkt_id))
