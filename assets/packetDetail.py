@@ -3,11 +3,13 @@ from PyQt5.QtCore import Qt, QSize
 from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QPushButton, QAction, QLineEdit, QMessageBox, QComboBox
 import threading
 import sys
+import re
 import numpy as np
 import os
 from pathlib import Path
 from sys import platform
-
+import shlex
+from subprocess import run,PIPE
 
 
 def clearOutput():
@@ -167,6 +169,45 @@ class Ui_MainWindow(QMainWindow):
 def displayPacket(colNum, pkt_id, logRecord=None):  
     ui = Ui_MainWindow()
     ui.setupUi()
+
+    def FilterWithPktId(pkt_id):
+        file_path = "assets/files/testLog"
+        temp_file = open("assets/files/temp", "w")
+        p = "PID:"+ pkt_id
+        cmd = "grep %s %s" % (str(p), file_path)
+        args = shlex.split(cmd)
+        if platform == "win32":
+            cmd = "findstr %s %s" % (str(p), "assets\\files\\testLog")
+            args = cmd
+        process = run(args, shell=True, stdout=temp_file, stderr=PIPE, text=True)
+        
+        temp_file.close()
+
+        try: 
+            temp_file = open("assets/files/temp", "r")
+            line = temp_file.readline()
+            transDetails = line.split("\t")
+            tx_id = transDetails[2]
+            cmd = "grep %s %s" % (str(tx_id), "assets/files/testLog")
+            args = shlex.split(cmd)
+            if platform == "win32":
+                cmd = "findstr %s %s" % (str(tx_id), "assets\\files\\testLog")
+                args = cmd
+            with open("assets/files/txRecord", "w") as filteredPktFile:
+                process = run(args, shell=True, stdout=filteredPktFile, stderr=filteredPktFile, text=True)
+                print("executed")
+
+            temp_file.close()
+
+            if os.path.exists("assets\\files\\temp"):
+                os.remove("assets/files/temp")
+            else: 
+                print("error")
+        except:
+            print("Some error in ")
+
+    
+    FilterWithPktId(pkt_id)
 
     print("setupUi")
 
