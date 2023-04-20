@@ -17,7 +17,7 @@ def clearOutput():
         os.system('clear')
     elif platform == "win32":
         os.system('cls')
-
+    pass
 class Ui_MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -74,7 +74,7 @@ class Ui_MainWindow(QMainWindow):
 
     def Filter(self):
         textBoxValue = self.textbox.text()
-        self.textbox.setText("")
+        # self.textbox.setText("")
         row = 0
         inputRow = 0
         self.filteredRecord = []
@@ -85,59 +85,126 @@ class Ui_MainWindow(QMainWindow):
             inputRow = inputRow + 1
         self.viewData()
 
-    def loadData(self):
+    def loadData(self, filePath = None):
+        # print(filePath)
 
-        path = Path('logrecord.npy')
+        if filePath is None:
+            # print("None")
+            path = Path('logrecord.npy')
 
-        if path.is_file():
-            print("Loading already existing file")
-            self.logRecord = np.load('logrecord.npy', allow_pickle = True)
-            print("Loaded")
+            if path.is_file():
+                print("Loading already existing file")
+                self.logRecord = np.load('logrecord.npy', allow_pickle = True)
+                print("Loaded")
+                return self.logRecord
+
+            print("Started loading log data")
+            logFile = f = open("assets/files/log", "r")
+            print("Loaded log data")
+
+            row = 0
+            self.logRecord = []
+            while(True):
+
+                print("Row number: ", row)
+                line = logFile.readline()
+                if not line:
+                    break
+                logLine = line.split("M:")
+                transDetails = logLine[0].split("\t")
+                del transDetails[-1]
+                if len(logLine) == 3:
+                    pktDetails = logLine[1].split("\t")
+                    del pktDetails[-1]
+                    message = logLine[2]
+                else:
+                    pktDetails = ["", "", "", "", "", "", "", "", "",
+                                    "", "", "", "", "", "", "", "", "", "", "", ""]
+                    message = logLine[1]
+                
+                transDetails[2] = transDetails[2][4:]
+                pktDetails[1] = pktDetails[1][4:]
+
+                colData = np.concatenate(
+                    (transDetails, pktDetails, message), axis=None)
+                
+                self.logRecord.append(colData)
+                row += 1
+                clearOutput()
+            print("Data loaded")
+            self.filteredRecord = self.logRecord
+            logFile.close()
+
+            np.save('logrecord.npy', self.logRecord)
+
             return self.logRecord
+        
+        path = Path(filePath)
 
-        print("Started loading log data")
-        logFile = f = open("assets/files/log", "r")
-        print("Loaded log data")
+        if not path.is_file():
+            raise Exception("Wrong file path")
+        else:
 
-        row = 0
-        self.logRecord = []
-        while(True):
+            # path = Path(filePath)
 
-            print("Row number: ", row)
-            line = logFile.readline()
-            if not line:
-                break
-            logLine = line.split("M:")
-            transDetails = logLine[0].split("\t")
-            del transDetails[-1]
-            if len(logLine) == 3:
-                pktDetails = logLine[1].split("\t")
-                del pktDetails[-1]
-                message = logLine[2]
-            else:
-                pktDetails = ["", "", "", "", "", "", "", "", "",
-                              "", "", "", "", "", "", "", "", "", "", "", ""]
-                message = logLine[1]
-            colData = np.concatenate(
-                (transDetails, pktDetails, message), axis=None)
+            # if path.is_file():
+            #     print("Loading already existing file")
+            #     self.logRecord = np.load('logrecord.npy', allow_pickle = True)
+            #     print("Loaded")
+            #     return self.logRecord
 
-            self.logRecord.append(colData)
-            row += 1
-            clearOutput()
-        print("Data loaded")
-        self.filteredRecord = self.logRecord
-        logFile.close()
+            # print("Started loading log data")
+            logFile = f = open(filePath, "r")
+            # print("Loaded log data")
 
-        np.save('logrecord.npy', self.logRecord)
+            row = 0
+            self.logRecord = []
+            while(True):
 
-        return self.logRecord
+                print("Row number: ", row)
+                line = logFile.readline()
+                if not line:
+                    break
+                logLine = line.split("M:")
+                transDetails = logLine[0].split("\t")
+                del transDetails[-1]
+                if len(logLine) == 3:
+                    pktDetails = logLine[1].split("\t")
+                    del pktDetails[-1]
+                    message = logLine[2]
+                else:
+                    pktDetails = ["", "", "", "", "", "", "", "", "",
+                                    "", "", "", "", "", "", "", "", "", "", "", ""]
+                    message = logLine[1]
+                
+                transDetails[2] = transDetails[2][4:]
+                pktDetails[1] = pktDetails[1][4:]
 
-    def applyFilter(self, objName, pkt_id, logRecord):
+                colData = np.concatenate(
+                    (transDetails, pktDetails, message), axis=None)
+                
+                self.logRecord.append(colData)
+                row += 1
+                clearOutput()
+            print("Data loaded")
+            self.filteredRecord = self.logRecord
+            logFile.close()
+
+            # np.save('logrecord.npy', self.logRecord)
+
+            return self.logRecord        
+        
+
+
+    def applyFilter(self, objName, txt):
         colNum = int(objName.split(' ')[1])
-        setattr(self, self.sender().text(),
-                displayPacket(colNum, pkt_id, logRecord))
-        getattr(self, self.sender().text()).showMaximized()
-        getattr(self, self.sender().text()).show()
+        self.combobox.setCurrentIndex(colNum)
+        self.textbox.setText(str(txt))
+        self.Filter()
+        # setattr(self, self.sender().text(),
+        #         displayPacket(colNum, pkt_id, logRecord))
+        # getattr(self, self.sender().text()).showMaximized()
+        # getattr(self, self.sender().text()).show()
 
     def viewData(self):
         row = 0
@@ -156,7 +223,7 @@ class Ui_MainWindow(QMainWindow):
                 btns[button_name].setObjectName(button_name)
                 btns[button_name].setEnabled(True)
                 btns[button_name].clicked.connect(lambda: self.applyFilter(
-                    self.sender().objectName(), self.sender().text(), self.logRecord))
+                    self.sender().objectName(), self.sender().text()))
                 item = self.tableWidget.setCellWidget(
                     row, colNums, btns[button_name])
                 colNums += 1
@@ -164,63 +231,68 @@ class Ui_MainWindow(QMainWindow):
             row = row + 1
 
         self.tableWidget.resizeColumnsToContents()
+    
+def FilterWithPktId(pkt_id):
+    # print("pkid: ", pkt_id)
+    file_path = "assets/files/testLog"
+    temp_file = open("assets/files/temp", "w")
+    p = "PID:"+ pkt_id+"\s+"
+    cmd = "grep -E %s %s" % (str(p), file_path)
+    args = shlex.split(cmd)
+    if platform == "win32":
+        # cmd = "findstr %s %s" % (str(p), "assets\\files\\testLog")
+        cmd = "grep -E %s %s" % (str(p), file_path)
+        args = cmd
+    process = run(args, shell=True, stdout=temp_file, stderr=PIPE, text=True)
+    
+    temp_file.close()
+
+    try: 
+        temp_file = open("assets/files/temp", "r")
+        line = temp_file.readline()
+        transDetails = line.split("\t")
+        tx_id = transDetails[2]+"\s+"
+        cmd = "grep -E %s %s" % (str(tx_id), "assets/files/testLog")
+        args = shlex.split(cmd)
+        if platform == "win32":
+            # cmd = "findstr %s %s" % (str(tx_id), "assets\\files\\testLog")
+            cmd = "grep -E %s %s" % (str(tx_id), "assets/files/testLog")
+            args = cmd
+        with open("assets/files/txRecord", "w") as filteredPktFile:
+            process = run(args, shell=True, stdout=filteredPktFile, stderr=filteredPktFile, text=True)
+            print("executed")
+
+        temp_file.close()
+
+        if os.path.exists("assets\\files\\temp"):
+            os.remove("assets/files/temp")
+        else: 
+            raise Exception("Error occured in grep")
+        return "assets/files/txRecord"
+    except:
+        raise Exception("Error occured in grep")
 
 
-def displayPacket(colNum, pkt_id, logRecord=None):  
+def displayPacket(colNum , pkt_id, logRecord=None):  
     ui = Ui_MainWindow()
     ui.setupUi()
 
-    def FilterWithPktId(pkt_id):
-        file_path = "assets/files/testLog"
-        temp_file = open("assets/files/temp", "w")
-        p = "PID:"+ pkt_id
-        cmd = "grep %s %s" % (str(p), file_path)
-        args = shlex.split(cmd)
-        if platform == "win32":
-            cmd = "findstr %s %s" % (str(p), "assets\\files\\testLog")
-            args = cmd
-        process = run(args, shell=True, stdout=temp_file, stderr=PIPE, text=True)
-        
-        temp_file.close()
-
-        try: 
-            temp_file = open("assets/files/temp", "r")
-            line = temp_file.readline()
-            transDetails = line.split("\t")
-            tx_id = transDetails[2]
-            cmd = "grep %s %s" % (str(tx_id), "assets/files/testLog")
-            args = shlex.split(cmd)
-            if platform == "win32":
-                cmd = "findstr %s %s" % (str(tx_id), "assets\\files\\testLog")
-                args = cmd
-            with open("assets/files/txRecord", "w") as filteredPktFile:
-                process = run(args, shell=True, stdout=filteredPktFile, stderr=filteredPktFile, text=True)
-                print("executed")
-
-            temp_file.close()
-
-            if os.path.exists("assets\\files\\temp"):
-                os.remove("assets/files/temp")
-            else: 
-                print("error")
-        except:
-            print("Some error in ")
-
-    
-    FilterWithPktId(pkt_id)
-
     print("setupUi")
+    
+    filePath = FilterWithPktId(pkt_id)
 
     if logRecord is None:
-        logRecord = ui.loadData()
+        # print(filePath)
+        logRecord = ui.loadData(filePath)
     else:
         ui.logRecord = logRecord
 
     print("logRecord Loaded")
 
-    ui.combobox.setCurrentIndex(colNum)
-    ui.textbox.setText(str(pkt_id))
-    ui.Filter()
+    # ui.combobox.setCurrentIndex(colNum)
+    # ui.textbox.setText(str(pkt_id))
+    # ui.Filter()
+    ui.viewData()
 
     return ui
 
