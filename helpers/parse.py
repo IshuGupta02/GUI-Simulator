@@ -1,8 +1,10 @@
 import os, timeit
 
+cache_file_path = 'helpers/files/L1ICache'
+
 def load_data():
 
-    f =  open("helpers/files/L1ICache","r") 
+    f =  open(cache_file_path,"r") 
 
     cyc_data = []
     print_=True

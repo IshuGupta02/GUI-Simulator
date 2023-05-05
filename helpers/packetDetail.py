@@ -11,6 +11,7 @@ from sys import platform
 import shlex
 from subprocess import run,PIPE
 
+log_file_path = "helpers/files/log"
 
 def clearOutput():
     if platform == "linux" or platform == "linux2":
@@ -86,7 +87,7 @@ class Ui_MainWindow(QMainWindow):
         self.viewData()
 
     def loadData(self, filePath = None):
-        
+
         if filePath is None:
             path = Path('logrecord.npy')
 
@@ -97,7 +98,7 @@ class Ui_MainWindow(QMainWindow):
                 return self.logRecord
 
             print("Started loading log data")
-            logFile = f = open("helpers/files/log", "r")
+            logFile = f = open(log_file_path, "r")
             print("Loaded log data")
 
             row = 0
